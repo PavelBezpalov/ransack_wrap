@@ -1,5 +1,5 @@
 <%- module_namespacing do -%>
-class <%= class_name %>Searcher < RansackWrap::Searcher
+class <%= class_name %>Searcher < RansackWrap::Search
   class Scopes < RansackWrap::Scopes
     # Custom searchable keys
     # attribute :only_sale, type: ActiveAttr::Typecasting::Boolean
