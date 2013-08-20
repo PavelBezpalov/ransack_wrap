@@ -1,0 +1,1 @@
+require 'ransack_wrap/helpers/form_helper'
