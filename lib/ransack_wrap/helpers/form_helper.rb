@@ -21,7 +21,7 @@ module RansackWrap
         }
         options[:as] ||= 'q'
         options[:html].reverse_merge!(html_options)
-        options[:builder] ||= Ransack::Search::FormBuilder
+        options[:builder] ||= Ransack::Helpers::FormBuilder
         
         form_for(record, options, &proc)
       end
