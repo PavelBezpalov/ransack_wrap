@@ -1,7 +1,6 @@
 module RansackWrap
   module Helpers
     module FormHelper
-
       def search_form_for(record, options = {}, &proc)
         if record.is_a?(Ransack::Search) || record.is_a?(RansackWrap::Search)
           search = record
