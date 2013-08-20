@@ -9,4 +9,4 @@ module RansackWrap
   # Your code goes here...
 end
 
-ActionController::Base.helper Ransack::Helpers::FormHelper
+ActionController::Base.helper RansackWrap::Helpers::FormHelper
