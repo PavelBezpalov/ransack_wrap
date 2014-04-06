@@ -25,7 +25,7 @@ Gem::Specification.new do |spec|
   spec.add_dependency 'actionpack',   '>= 3.0.2', "< 4.0"
   spec.add_runtime_dependency "activemodel",   ">= 3.0.2", "< 4.0"
   spec.add_runtime_dependency "activesupport", ">= 3.0.2", "< 4.0"
-  spec.add_dependency 'polyamorous', '~> 0.6.0'
+  spec.add_dependency 'polyamorous', '>= 0.5.0'
   spec.add_development_dependency "bundler", "~> 1.3"
   spec.add_development_dependency "rake"
 end
