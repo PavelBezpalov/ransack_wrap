@@ -22,7 +22,7 @@ class <%= class_name %>Searcher < RansackWrap::Search
     # end
   end
   
-  # Delegation to searchers
+  # Delegation to searchers (uncomment and fill with your keys from class above)
   # delegate :only_sale, :opt_in, :cat_in, to: :base
 end
 <% end -%>

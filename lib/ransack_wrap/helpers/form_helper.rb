@@ -1,6 +1,13 @@
+# :stopdoc:
+
 module RansackWrap
   module Helpers
     module FormHelper
+      # :startdoc:
+      
+      ##
+      # Extends original +search_form_for+ method from Ransack gem 
+      # to also support RansackWrap::Search instances.
       def search_form_for(record, options = {}, &proc)
         if record.is_a?(Ransack::Search) || record.is_a?(RansackWrap::Search)
           search = record

@@ -1,3 +1,5 @@
+# :nodoc: all
+
 module Rails
   module Generators
     class SearcherGenerator < NamedBase
