@@ -24,5 +24,8 @@ class <%= class_name %>Searcher < RansackWrap::Search
   
   # Delegation to searchers (uncomment and fill with your keys from class above)
   # delegate :only_sale, :opt_in, :cat_in, to: :base
+  
+  # Alias to Ransack params
+  # alias_to_ransack :in_titles, :title_or_subtitle_or_category_title_cont
 end
 <% end -%>
